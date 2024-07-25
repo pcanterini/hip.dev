@@ -1,0 +1,31 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build output
+_site/
+
+# Ignore cache
+.cache/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore editor files
+.vscode/
+.idea/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Ignore Eleventy cache
+.eleventy.cache/
