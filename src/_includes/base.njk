@@ -3,7 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | url | absoluteUrl(site.url) }}">
+  <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:image" content="{{ site.image | url | absoluteUrl(site.url) }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ page.url | url | absoluteUrl(site.url) }}">
+  <meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.name }}{% endif %}">
+  <meta name="twitter:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.image | url | absoluteUrl(site.url) }}">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ page.url | url | absoluteUrl(site.url) }}">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
