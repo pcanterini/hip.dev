@@ -1,3 +1,98 @@
+/* Dracula theme color palette */
+:root {
+  --background: #282a36;
+  --current-line: #44475a;
+  --foreground: #f8f8f2;
+  --comment: #6272a4;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+}
+
 body {
-  font-family: sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--pink);
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+pre, code {
+  background-color: var(--current-line);
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0.2em 0.4em;
+}
+
+blockquote {
+  border-left: 3px solid var(--comment);
+  color: var(--comment);
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--comment);
+  margin: 2em 0;
+}
+
+/* Basic form styles */
+input, textarea, select {
+  background-color: var(--current-line);
+  border: 1px solid var(--comment);
+  color: var(--foreground);
+  padding: 0.5em;
+}
+
+button {
+  background-color: var(--purple);
+  border: none;
+  color: var(--background);
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+button:hover {
+  background-color: var(--pink);
+}
+
+/* Basic table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid var(--comment);
+  padding: 0.5em;
+  text-align: left;
+}
+
+th {
+  background-color: var(--current-line);
 }
