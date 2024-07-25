@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Hello World!"
+title: "Hi, my name is Pedro"
 description: "Pedro Canterini's personal portfolio"
 ---
 
-Index
+I’m a web developer with an interest in design and mobile apps.
