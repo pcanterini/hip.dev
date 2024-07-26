@@ -14,16 +14,16 @@
 }
 
 @font-face {
-  font-family: Space Grotesk;
+  font-family: sg-r-b-l;
   font-display: swap;
-  src: url(/assets/fonts/SpaceGrotesk-Regular-basic-latin-subset.woff2) format("woff2"), url(/assets/fonts/SpaceGrotesk-Regular-basic-latin-subset.woff) format("woff");
+  src: url(/assets/fonts/sg-r-b-l.woff2) format("woff2"), url(/assets/fonts/sg-r-b-l.woff) format("woff");
   font-weight:400
 }
 
 @font-face {
-  font-family: Space Grotesk;
+  font-family: sg-r-b-l;
   font-display: swap;
-  src: url(/assets/fonts/SpaceGrotesk-Bold-basic-latin-subset.woff2) format("woff2"), url(/assets/fonts/SpaceGrotesk-Bold-basic-latin-subset.woff) format("woff");
+  src: url(/assets/fonts/sg-b-b-l.woff2) format("woff2"), url(/assets/fonts/sg-b-b-l.woff) format("woff");
   font-weight:700
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   line-height: 1;
-  font-family: Space Grotesk,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-family: sg-r-b-l,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
   font-weight: 700;
 }
 
