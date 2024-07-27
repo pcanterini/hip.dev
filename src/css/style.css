@@ -14,16 +14,16 @@
 }
 
 @font-face {
-  font-family: sg-r-b-l;
+  font-family: Space Grotesk;
   font-display: swap;
-  src: url(/assets/fonts/sg-r-b-l.woff2) format("woff2"), url(/assets/fonts/sg-r-b-l.woff) format("woff");
+  src: url(/assets/fonts/SpaceGrotesk-Bold.woff2) format("woff2"), url(/assets/fonts/SpaceGrotesk-Bold.woff) format("woff");
   font-weight:400
 }
 
 @font-face {
-  font-family: sg-r-b-l;
+  font-family: Space Grotesk;
   font-display: swap;
-  src: url(/assets/fonts/sg-b-b-l.woff2) format("woff2"), url(/assets/fonts/sg-b-b-l.woff) format("woff");
+  src: url(/assets/fonts/SpaceGrotesk-Bold.woff2) format("woff2"), url(/assets/fonts/SpaceGrotesk-Bold.woff) format("woff");
   font-weight:700
 }
 
