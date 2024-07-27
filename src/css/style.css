@@ -20,13 +20,6 @@
   font-weight:400
 }
 
-@font-face {
-  font-family: Space Grotesk;
-  font-display: swap;
-  src: url(/assets/fonts/SpaceGrotesk-Bold.woff2) format("woff2"), url(/assets/fonts/SpaceGrotesk-Bold.woff) format("woff");
-  font-weight:700
-}
-
 body {
   background-color: var(--background);
   color: var(--foreground);
